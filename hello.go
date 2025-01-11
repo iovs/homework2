@@ -8,10 +8,13 @@ const (
 	c
 	d = 2
 	e
+	f
+	g = 8
+	h
 )
 
 func main() {
 	fmt.Println("Hello, 世界, 455566666")
-	fmt.Println(a, b, c, d, e) // 1, 1, 1, 2, 2
-	fmt.Println("Hello 22")
+	fmt.Println(a, b, c, d, e, f, g, h) // 1, 1, 1, 2, 2, 2, 8, 8
+	fmt.Println("Hello, 世界, 455566666")
 }
